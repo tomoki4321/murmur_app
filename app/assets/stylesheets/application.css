@@ -1,0 +1,57 @@
+header {
+  background-color: #2B2B2B;
+  height: 50px;
+  width: 100%;
+  top: 0;
+}
+
+header ul {
+  margin: 0;
+  padding: 0;
+}
+
+header ul a {
+  color: #fff;
+  text-decoration: none;
+  display: block;
+  padding: 15px;
+}
+
+header li {
+  list-style: none;
+  width: auto;
+  float: left;
+}
+
+header .right {
+  float: right;
+}
+
+header .left {
+  float: left;
+}
+
+header ul:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  height: 70px;
+  background-color: #283A4B;
+  font-size: 0.8rem;
+  width: 100%;
+  color: #fff;
+  display: table;
+  }
+  
+.footer_contet {
+  text-align: center;
+  vertical-align: middle;
+  display: table-cell;
+}
+    
+ 
